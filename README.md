@@ -1,1 +1,1 @@
-42 coding school - Piscine files
+42 coding school

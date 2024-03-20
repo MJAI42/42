@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjichi <mjichi@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mjichi <marc.eljichi@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/17 13:10:29 by mjichi            #+#    #+#             */
-/*   Updated: 2024/02/18 16:17:48 by mjichi           ###   ########.ae       */
+/*   Updated: 2024/03/15 15:53:55 by mjichi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	ft_atoi(char *str)
 	}
 	return (sign * output);
 }
-/*
+
 #include <unistd.h>
 #include <stdio.h>
 
@@ -43,4 +43,4 @@ int main(void)
 	printf("%i\n", ft_atoi("      ---+--+1234ab567"));
 	return (0);
 }
-*/
+
